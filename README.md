@@ -137,7 +137,7 @@ Use the **4×4 Matrix Keypad** to select and configure the required option.
 # 🕒RTC Time Configuration
 
 The RTC configuration feature allows the user to modify the current system date and time.
-Compare RTC time with all stored reminder timings.
+
 
 <p align="center">
 
