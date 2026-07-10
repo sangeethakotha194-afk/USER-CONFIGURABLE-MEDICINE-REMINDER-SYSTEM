@@ -89,13 +89,7 @@ The reminder can be acknowledged by pressing **External Interrupt 1 (EINT1)**. I
 
 ---
 
-# 💻 Software Tools
 
-- Embedded C
-- Keil μVision IDE
-- Flash Magic
-
----
 
 # 📍 Pin Connections
 
@@ -211,6 +205,14 @@ The project supports three independent reminder slots.
 <p align="center">
 <img src="Images/output_img7.png" width="700">
 </p>
+
+---
+
+# 💻 Software Tools
+
+- Embedded C
+- Keil μVision IDE
+- Flash Magic
 
 ---
 
