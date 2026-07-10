@@ -104,7 +104,7 @@ The reminder can be acknowledged by pressing **External Interrupt 1 (EINT1)**. I
 | LCD RS | P0.16 |
 | LCD RW | P0.17 |
 | LCD EN | P0.18 |
-| Buzzer | P0.0 |
+| Buzzer | P2.0 |
 | EINT0 Switch | P0.1 |
 | EINT1 Switch | P0.3 |
 | Keypad Rows | P1.16 – P1.19 |
