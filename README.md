@@ -155,7 +155,7 @@ The project supports three independent reminder slots.
 
 ---
 
-# 🔔 Reminder Alert
+# 🔔Medicine Alert System
 
 <p align="center">
 <img src="images/medicine alert.png" width="800">
