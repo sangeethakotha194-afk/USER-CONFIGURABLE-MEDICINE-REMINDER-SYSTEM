@@ -186,15 +186,15 @@ The project supports three independent reminder slots.
 </p>
 
 <p align="center">
-<img src="Images/output_img2.png" width="500">
+<img src="Images/output_img2.png" width="400">
 </p>
 
 <p align="center">
-<img src="Images/output_img3.png" width="500">
+<img src="Images/output_img3.png" width="400">
 </p>
 
 <p align="center">
-<img src="Images/output_img4.png" width="500">
+<img src="Images/output_img4.png" width="400">
 </p>
 
 <p align="center">
