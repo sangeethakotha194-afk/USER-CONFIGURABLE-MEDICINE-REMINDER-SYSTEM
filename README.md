@@ -59,7 +59,7 @@ The reminder can be acknowledged by pressing **External Interrupt 1 (EINT1)**. I
 # 📦 Hardware Block Diagram
 
 <p align="center">
-<img src="images/block diagram.png" width="750">
+<img src="Images/Hardware_block diagram.png" width="750">
 </p>
 
 ---
