@@ -166,7 +166,7 @@ The project supports three independent reminder slots.
 # 🔄 Reminder Execution Flow
 
 <p align="center">
-<img src="images/reminder process.png" width="750">
+<img src="Images/Reminder_flowchart.png" width="750">
 </p>
 
 ---
