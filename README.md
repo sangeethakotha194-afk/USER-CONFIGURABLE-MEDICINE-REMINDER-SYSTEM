@@ -56,13 +56,6 @@ The reminder can be acknowledged by pressing **External Interrupt 1 (EINT1)**. I
 
 ---
 
-# 📦 Hardware Block Diagram
-
-<p align="center">
-<img src="Images/Hardware_block diagram.png" width="750">
-</p>
-
----
 
 # 🔧 Hardware Requirements
 
@@ -75,6 +68,15 @@ The reminder can be acknowledged by pressing **External Interrupt 1 (EINT1)**. I
 | Buzzer | Alert Indication |
 | Push Button (EINT0) | Configuration Mode |
 | Push Button (EINT1) | Reminder Acknowledge |
+
+---
+
+
+# 📦 Hardware Block Diagram
+
+<p align="center">
+<img src="Images/Hardware_block diagram.png" width="750">
+</p>
 
 ---
 
