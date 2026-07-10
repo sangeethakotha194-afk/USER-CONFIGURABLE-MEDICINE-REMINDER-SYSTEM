@@ -51,7 +51,7 @@ The reminder can be acknowledged by pressing **External Interrupt 1 (EINT1)**. I
 # 🏗️ System Architecture
 
 <p align="center">
-<img src="Images/System_Architecture.png" width="800">
+<img src="Images/system_arc.png" width="800">
 </p>
 
 ---
