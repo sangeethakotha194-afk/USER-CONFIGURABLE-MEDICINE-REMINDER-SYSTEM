@@ -182,7 +182,7 @@ The project supports three independent reminder slots.
 # 📷 Project Demonstration
 
 <p align="center">
-<img src="images/image1.png" width="700">
+<img src="Images/output_img1.png" width="700">
 </p>
 
 <p align="center">
