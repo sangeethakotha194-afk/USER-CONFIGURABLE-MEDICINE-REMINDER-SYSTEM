@@ -107,25 +107,24 @@ The reminder can be acknowledged by pressing **External Interrupt 1 (EINT1)**. I
 
 ---
 
-
 # 🔧 System Configuration Mode
 
-The **System Configuration Mode** is activated using **Switch-1**.
+Press **Switch-1 (EINT0)** to enter Configuration Mode.
 
-Switch-1 is connected to the **EINT0 External Interrupt** of LPC2148.
+The LCD displays the available options:
 
-Once Switch-1 is pressed, the controller displays configuration options on the LCD.
+- 🕒 Edit RTC
+- 💊 Set Medicine Time
 
-The user can select:
-
-- 🕒 Edit RTC Time
-- 💊 Configure Medicine Schedule
-
-The required option is selected using the **4x4 Matrix Keypad**.
+Use the **4×4 Matrix Keypad** to select and configure the required option.
 
 ---
 
 # 🛠 Configuration Flow
+
+- Press **Switch-1 (EINT0)** to enter setup mode.
+- Select **RTC** or **Medicine Schedule**.
+- Configure using the **4×4 Matrix Keypad**.
 
 <p align="center">
 
@@ -135,28 +134,10 @@ The required option is selected using the **4x4 Matrix Keypad**.
 
 ---
 
-# ⚙️ Project Workflow
-
-1. Initialize LCD, RTC, keypad and external interrupts.
-2. Display the current date and time.
-3. Press **EINT0** to enter configuration mode.
-4. Set RTC values or medicine reminder timings.
-5. Save reminder schedules.
-6. Continuously monitor RTC.
-7. Compare RTC time with all stored reminder timings.
-8. If a match occurs:
-   - Display **"Take Medicine Now"**
-   - Turn ON the buzzer
-9. Wait for user acknowledgement through **EINT1**.
-10. Stop the buzzer immediately after acknowledgement.
-11. If no acknowledgement is received, automatically stop the reminder after one minute.
-12. Continue monitoring for the next reminder.
-
----
-
 # 🕒RTC Time Configuration
 
 The RTC configuration feature allows the user to modify the current system date and time.
+Compare RTC time with all stored reminder timings.
 
 <p align="center">
 
@@ -181,25 +162,56 @@ The project supports three independent reminder slots.
 
 # 🔔Medicine Alert System
 
+When the reminder time is reached:
+- LCD shows **"Take Medicine Now"**
+- Buzzer turns ON
+- System waits for user response
+- Press **Switch-2 (EINT1)** to stop the reminder
+
 <p align="center">
-<img src="Images/Alert_configuration.png" width="800">
+<img src="Images/Alert_configuration.png" width="700">
 </p>
 
 ---
 
-# 🔄 Reminder Execution Flow
+# ⏱ Alert Timeout Mechanism
 
-<p align="center">
-<img src="Images/Reminder_flowchart.png" width="750">
-</p>
+The reminder remains active for **1 minute**.
+- If **Switch-2 (EINT1)** is pressed within 1 minute:
+  - Buzzer turns OFF
+  - Reminder is cleared
+  - System returns to normal monitoring
 
----
+- If **Switch-2 is not pressed** within 1 minute:
+  - Buzzer turns OFF automatically
+  - Reminder is cleared
+  - System continues checking the RTC for the next reminder
+
+# ⏱ Reminder Timeout
+
+- Reminder stays active for **1 minute**.
+- Press **Switch-2 (EINT1)** to stop the reminder.
+- If no button is pressed, the buzzer stops automatically after 1 minute.
+- The system then continues monitoring the RTC for the next reminder.
 
 # 🔄Complete System Flowchart
 
 <p align="center">
 <img src="Images/System_flowchart.png" width="750">
 </p>
+
+---
+
+# 🔧 Communication & Interface
+
+| Device | Interface |
+|----------|------------|
+| RTC | I2C |
+| LCD | GPIO |
+| Matrix Keypad | GPIO |
+| Buzzer | GPIO |
+| Switch-1 | EINT0 |
+| Switch-2 | EINT1 |
 
 ---
 
@@ -265,46 +277,24 @@ The project supports three independent reminder slots.
 
 ---
 
-# 📂 Project Structure
-
-```
-Medicine-Reminder-System/
-│
-├── testpro1.c
-├── RTC.c
-├── LCD.c
-├── KPM.c
-├── delay.c
-├── includes/
-├── images/
-└── README.md
-```
-
----
-
 # 👩‍💻 Developer
 
 **Kotha Sangeetha**
 
 **Bachelor of Technology (Electronics and Communication Engineering)**
 
-### Skills
-
-- Embedded C
-- ARM7 LPC2148
-- Embedded Linux
-- Microcontroller Programming
-- Keil μVision
-- Flash Magic
-
+  2025 Graduate
 ---
 
 # 📜 License
 
 This project is developed for **academic learning and educational purposes**.
+Feel free to fork, modify, and improve the project.
 
 ---
 
-## ⭐ Support
+# 🙏 Thank You
+
+Thank you for visiting this project.
 
 If you found this project useful, consider giving this repository a **⭐ Star** and feel free to fork it for learning purposes.
