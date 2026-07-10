@@ -68,6 +68,7 @@ The reminder can be acknowledged by pressing **External Interrupt 1 (EINT1)**. I
 | Buzzer | Alert Indication |
 | Push Button (EINT0) | Configuration Mode |
 | Push Button (EINT1) | Reminder Acknowledge |
+| USB-UART| Programming and Communication |
 
 ---
 
