@@ -171,10 +171,10 @@ The project supports three independent reminder slots.
 
 ---
 
-# 🔄 Software Flowchart
+# 🔄Complete System Flowchart
 
 <p align="center">
-<img src="images/software workflow.png" width="750">
+<img src="Images/System_flowchart.png" width="750">
 </p>
 
 ---
