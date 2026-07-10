@@ -283,7 +283,8 @@ The reminder remains active for **1 minute**.
 
 **Bachelor of Technology (Electronics and Communication Engineering)**
 
-  2025 Graduate
+ 2025 Graduate
+  
 ---
 
 # 📜 License
