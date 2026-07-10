@@ -78,6 +78,14 @@ The reminder can be acknowledged by pressing **External Interrupt 1 (EINT1)**. I
 
 ---
 
+# 📦 System Working Flow
+
+<p align="center">
+<img src="Images/Hardware_block diagram.png" width="750">
+</p>
+
+---
+
 # 💻 Software Tools
 
 - Embedded C
