@@ -107,6 +107,34 @@ The reminder can be acknowledged by pressing **External Interrupt 1 (EINT1)**. I
 
 ---
 
+
+# 🔧 System Configuration Mode
+
+The **System Configuration Mode** is activated using **Switch-1**.
+
+Switch-1 is connected to the **EINT0 External Interrupt** of LPC2148.
+
+Once Switch-1 is pressed, the controller displays configuration options on the LCD.
+
+The user can select:
+
+- 🕒 Edit RTC Time
+- 💊 Configure Medicine Schedule
+
+The required option is selected using the **4x4 Matrix Keypad**.
+
+---
+
+# 🛠 Configuration Flow
+
+<p align="center">
+
+<img src="gallery/configuration.png" width="100%">
+
+</p>
+
+---
+
 # ⚙️ Project Workflow
 
 1. Initialize LCD, RTC, keypad and external interrupts.
@@ -126,17 +154,16 @@ The reminder can be acknowledged by pressing **External Interrupt 1 (EINT1)**. I
 
 ---
 
-# 🕒 RTC Settings
+# 🕒RTC Time Configuration
 
-The following RTC parameters can be modified:
+The RTC configuration feature allows the user to modify the current system date and time.
 
-- Hour
-- Minute
-- Second
-- Day
-- Date
-- Month
-- Year
+<p align="center">
+
+<img src="gallery/rtc.png" width="100%">
+
+</p>
+
 
 ---
 
