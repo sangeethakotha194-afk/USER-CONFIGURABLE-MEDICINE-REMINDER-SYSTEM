@@ -136,6 +136,8 @@ Use the **4×4 Matrix Keypad** to select and configure the required option.
 
 # 🛠 RTC Time Configuration 
 
+The RTC (Real-Time Clock) Configuration is used to set or update the current date and time
+
 <p align="center">
 
 <img src="Images/RTC_configuration.png" width="700">
