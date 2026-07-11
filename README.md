@@ -169,7 +169,7 @@ When the reminder time is reached:
 - Press **Switch-2 (EINT1)** to stop the reminder
 
 <p align="center">
-<img src="Images/Alert_configuration.png" width="700">
+<img src="Images/Alert_msg.png" width="750">
 </p>
 
 ---
