@@ -138,7 +138,7 @@ Use the **4×4 Matrix Keypad** to select and configure the required option.
 
 <p align="center">
 
-<img src="Images/Configuration_Flow.png" width="700">
+<img src="Images/RTC_configuration.png" width="700">
 
 </p>
 
