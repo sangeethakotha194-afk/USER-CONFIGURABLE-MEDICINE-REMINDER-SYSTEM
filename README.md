@@ -84,7 +84,7 @@ The reminder can be acknowledged by pressing **External Interrupt 1 (EINT1)**. I
 # 📦 System Working Flow
 
 <p align="center">
-<img src="Images/sytem_working_flow.png" width="750">
+<img src="Images/System_Working_Flow.png" width="750">
 </p>
 
 ---
