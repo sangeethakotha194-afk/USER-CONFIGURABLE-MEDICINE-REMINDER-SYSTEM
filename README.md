@@ -128,7 +128,7 @@ Use the **4×4 Matrix Keypad** to select and configure the required option.
 
 <p align="center">
 
-<img src="gallery/configuration.png" width="100%">
+<img src="Images/Configuration_Flow.png" width="100%">
 
 </p>
 
@@ -141,7 +141,7 @@ The RTC configuration feature allows the user to modify the current system date 
 
 <p align="center">
 
-<img src="gallery/rtc.png" width="100%">
+<img src="gallery/rtc.png" width="700">
 
 </p>
 
