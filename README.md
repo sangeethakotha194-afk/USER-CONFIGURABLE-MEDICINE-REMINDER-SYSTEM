@@ -114,7 +114,7 @@ Press **Switch-1 (EINT0)** to enter Configuration Mode.
 The LCD displays the available options:
 
 - 🕒 Edit RTC
-- 💊 Set Medicine Time
+- 💊 Set Medicine time
 
 Use the **4×4 Matrix Keypad** to select and configure the required option.
 
