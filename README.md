@@ -203,7 +203,7 @@ The reminder remains active for **1 minute**.
 # 🔄Complete System Flowchart
 
 <p align="center">
-<img src="Images/System_flow.png" width="700">
+<img src="Images/system_flowchart (2).png" width="700">
 </p>
 
 ---
