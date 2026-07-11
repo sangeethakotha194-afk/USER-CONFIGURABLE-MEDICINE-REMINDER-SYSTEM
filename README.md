@@ -1,4 +1,4 @@
-# 💊 Smart Medicine Reminder System | LPC2148 ARM7
+# 💊 User configurable Medicine Reminder System Using LPC2148 ARM7
 
 <p align="center">
 
