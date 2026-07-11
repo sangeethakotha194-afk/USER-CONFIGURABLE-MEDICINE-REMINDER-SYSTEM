@@ -134,20 +134,6 @@ Use the **4×4 Matrix Keypad** to select and configure the required option.
 
 ---
 
-# 🕒RTC Time Configuration
-
-The RTC configuration feature allows the user to modify the current system date and time.
-
-
-<p align="center">
-
-<img src="gallery/rtc.png" width="700">
-
-</p>
-
-
----
-
 # 💊 Medicine Reminder Schedule
 
 The project supports three independent reminder slots.
