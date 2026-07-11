@@ -128,7 +128,7 @@ Use the **4×4 Matrix Keypad** to select and configure the required option.
 
 <p align="center">
 
-<img src="Images/Configuration_Flow.png" width="100%">
+<img src="Images/Configuration_Flow.png" width="700">
 
 </p>
 
@@ -169,7 +169,7 @@ When the reminder time is reached:
 - Press **Switch-2 (EINT1)** to stop the reminder
 
 <p align="center">
-<img src="Images/Alert_msg.png" width="750">
+<img src="Images/Alert_msg.png" width="850">
 </p>
 
 ---
