@@ -160,7 +160,7 @@ The project supports three independent reminder slots.
 
 <p align="center">
 
-<img src="Images/Configuration_Flow.png" width="700">
+<img src="Images/Medicine_configuration.png" width="700">
 
 </p>
 
